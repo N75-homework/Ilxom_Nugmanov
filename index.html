@@ -4,36 +4,131 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.css">
-    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>logo</title>
 </head>
 <body>
-    <!-- Site Header Start  -->
-    <header class="site-header">
-        <div class="container">
-            <div class="header-inner header">
-                <a href="">
-                    <img src="" alt="">
-                </a>
+    <header class="bg-stone-600 py-6">
+        <div class="flex justify-between xl:container md:container lg:container 2xl:container sm:container mx-auto w-[1440px]">
+            <div>
+               <img src="./IMAGE.svg" alt="">
             </div>
+            <nav class="">
+                <ul class="flex gap-x-10">
+                    <li><a class="text-neutral-50" href="#">Home</a></li>
+                    <li><a class="text-neutral-50" href="#">About</a></li>
+                    <li><a class="text-neutral-50" href="#">Contact</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
-    <!-- Site Header End  -->
-    <!-- Site Main Start  -->
-    <main class="site-main">
-        <section class="hero-section">
-            <div class="container">
-                <div class="hero"></div>
+    <main>
+        <section class="flex  items-center justify-around py-16 bg-gray-200 ">
+            <div> 
+                <h2 class="text-4xl font-normal mb-3">
+                    Double click text to change it
+                </h2>
+                <p class="w-80 mb-8">
+                    To style this paragraph, select this paragraph, then edit its styles in the Style tab on the right side of the Designer.
+                </p>
+                <a class="py-4 px-6 bg-slate-50 rounded " href="#">Edit this link in the settings tab in the right panel</a>
+            </div>
+            <div>
+                <img src="./hero img.png" alt="">
+                <p class="w-80 text-center">In the navigator tab located in the right panel you can see all your elements in one place.</p>
+            </div>
+        </section>
+        <section class="py-14 bg-zinc-300">
+            <div class="flex justify-between ">
+                <img src="./f.png" alt="">
+                <img src="./aple.png" alt="">
+                <img src="./box.png" alt="">
+                <img src="./buuz.png" alt="">
+                <img src="./fitbit.png" alt="">
+                <img src="./google.png" alt="">
+                <img src="./sega.png" alt="">
+                <img src="./stripe.png" alt="">
+            </div>
+        </section>
+        <section class=" py-14">
+            <div class="flex items-center justify-around pb-6">
+                <div> 
+                    <h2 class="text-4xl font-normal mb-3">
+                        What is a Class?
+                    </h2>
+                    <p class="w-80 mb-8">
+                        A Class is more than just the name of an element, it is a title you create that can be added to other elements that you'd like to be styled the same way. Notice that if you select this paragraph, and change it, it will effect the paragraph below as well, since they have the same Class.
+                    </p>
+                </div>
+                <div>
+                    <img src="./hero img.png" alt="">
+                    <p class="w-80 text-center">
+                        Double click an image to replace it.
+                    </p>
+                </div>
+            </div>
+            <div class="flex items-center justify-around ">
+
+                <div>
+                    <img src="./hero img.png" alt="">
+                    <p class="w-80 text-center">
+                        Double click an image to replace it.
+                    </p>
+                </div>
+                <div> 
+                    <h2 class="text-4xl font-normal mb-3">
+                        What is a Class?
+                    </h2>
+                    <p class="w-80 mb-8">
+                        A Class is more than just the name of an element, it is a title you create that can be added to other elements that you'd like to be styled the same way. Notice that if you select this paragraph, and change it, it will effect the paragraph below as well, since they have the same Class.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+        <section class="text-center bg-zinc-300 py-20">
+            <div class="flex flex-col items-center mb-14">
+                <h2 class="text-4xl font-normal mb-3">
+                    Layout tip
+                </h2>
+                <p class="w-80">
+                    Change the layout direction of a flexbox element from horizontal to vertical.
+                </p>
+                <img src="./layout 1.png" alt="">
+                <p class="w-80">
+                    Flexbox is a display setting found in the styles tab under Layout > Display Settings
+                </p>
+            </div>
+            <div class="flex  items-center justify-around">
+                <div class="bg-gray-50  flex flex-col items-center p-9">
+                    <h3>
+                        Step 1
+                    </h3>
+                    <img class="mt-8 mb-10" src="./step1.svg" alt="">
+                    <p class="w-80">
+                        Click to select Column 1 which is the white box that this paragraph you're reading is currently inside of.
+                    </p>
+                </div>
+                <div class="bg-gray-50 flex flex-col items-center p-9">
+                    <h3>
+                        Step 2
+                    </h3>
+                    <img class="mt-8 mb-12" src="./step2.svg" alt="">
+                    <p class="w-80">
+                        Click to select Column 1 which is the white box that this paragraph you're reading is currently inside of.
+                    </p>
+                </div>
+                <div class="bg-gray-50 flex flex-col items-center p-9">
+                    <h3>
+                        Step 3
+                    </h3>
+                    <img class="mt-8 mb-12" src="./step3.svg" alt="">
+                    <p class="w-80">
+                        Click to select Column 1 which is the white box that this paragraph you're reading is currently inside of.
+                    </p>
+                </div> 
             </div>
         </section>
     </main>
-  <!-- Site Main End  -->
-  <!-- Site Footer Start  -->
-    <footer class="site-footer">
-        <div class="container">
-            <div class="footer-inner footer"></div>
-        </div>
-    </footer>
-    <!-- Site Footer End  -->
 </body>
 </html>
