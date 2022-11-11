@@ -23,17 +23,14 @@ var $userAbout = document.querySelector('#about');
 
 var $btn = document.querySelector('.btn');
 var $Form = document.querySelector('.form');
+var $aboutSection = document.querySelector('.about-section');
 
-// window.onload = function(){
-//   document.querySelector('.truncate1').addEventListener('click' ,() => {
-//       const invoice = this.document.getElementsByClassName('.about-section');
 
-//       console.log(invoice)
-//       console.log(window)
-//       html2pdf().form(invoice).save();
-      
-//   })
-// }
+function downlod(){
+   html2pdf()
+   .from($aboutSection)
+   .save();
+}
 
 
 $Form.addEventListener("submit", function(evt) {

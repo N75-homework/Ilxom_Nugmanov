@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.js" integrity="sha512-vNrhFyg0jANLJzCuvgtlfTuPR21gf5Uq1uuSs/EcBfVOz6oAHmjqfyPoB5rc9iWGSnVE41iuQU4jmpXMyhBrsw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <title>Document</title>
 </head>
 <body>    
@@ -18,27 +18,27 @@
                       <div class="grid grid-cols-6 gap-6">
                         <div class="col-span-6 sm:col-span-3">
                           <label for="first-name" class="block text-sm font-medium text-gray-700">First name</label>
-                          <input class="first-name" type="text" name="first-name" id="first-name" autocomplete="given-name" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+                          <input type="text" name="first-name" id="first-name" autocomplete="given-name" class=" first-name mt-1 block w-full rounded-md border border-sky-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm  ">
                         </div>
           
                         <div class="col-span-6 sm:col-span-3">
                           <label for="last-name" class="block text-sm font-medium text-gray-700">Last name</label>
-                          <input class="last-name" type="text" name="last-name" id="last-name" autocomplete="family-name" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+                          <input  type="text" name="last-name" id="last-name" autocomplete="family-name" class="last-name mt-1 block w-full rounded-md border border-sky-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
                         </div>
           
                         <div class="col-span-6 sm:col-span-3">
                           <label for="email-address" class="block text-sm font-medium text-gray-700">Email address</label>
-                          <input class="email-address" type="email" name="email-address" id="email-address" autocomplete="email" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+                          <input   type="email" name="email-address" id="email-address" autocomplete="email" class="email-address mt-1 block w-full rounded-md border border-sky-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm ">
                         </div>
 
                         <div class="col-span-6 sm:col-span-3">
                             <label for="last-name" class="block text-sm font-medium text-gray-700">Professia</label>
-                            <input class="profesia" type="text" name="profesia" id="profesia" autocomplete="family-name" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+                            <input  type="text" name="profesia" id="profesia" autocomplete="family-name" class=" profesia mt-1 block w-full rounded-md border border-sky-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
                         </div>
           
                         <div class="col-span-6 sm:col-span-3">
                           <label for="country" class="block text-sm font-medium text-gray-700">Country</label>
-                          <select id="country" name="country" autocomplete="country-name" class="mt-1 block w-full rounded-md border border-gray-300 bg-white py-2 px-3 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm">
+                          <select id="country" name="country" autocomplete="country-name" class="mt-1 block w-full rounded-md border border-sky-300 bg-white py-2 px-3 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm">
                             <option>Toshkent</option>
                             <option>Namangan</option>
                             <option>Qashqadaryo</option>
@@ -47,32 +47,32 @@
           
                         <div class="col-span-6">
                           <label for="street-address" class="block text-sm font-medium text-gray-700">Street address</label>
-                          <input class="street" type="text" name="street-address" id="street-address" autocomplete="street-address" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+                          <input  type="text" name="street-address" id="street-address" autocomplete="street-address" class=" street mt-1 block w-full rounded-md border border-sky-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
                         </div>
           
                         <div class="col-span-6">
                           <label for="city" class="block text-sm font-medium text-gray-700">City</label>
-                          <input class="city" type="text" name="city" id="city" autocomplete="address-level2" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+                          <input  type="text" name="city" id="city" autocomplete="address-level2" class="mt-1 city  block w-full rounded-md border border-sky-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
                         </div>
           
                         <div class="col-span-6 ">
                           <label for="region" class="block text-sm font-medium text-gray-700">State / Province</label>
-                          <input class="state" type="text" name="region" id="region" autocomplete="address-level1" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+                          <input  type="text" name="region" id="region" autocomplete="address-level1" class=" state mt-1 block w-full rounded-md border border-sky-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
                         </div>
           
                         <div class="col-span-6 ">
                           <label for="postal-code" class="block text-sm font-medium text-gray-700">ZIP / Postal code</label>
-                          <input class="zip" type="text" name="postal-code" id="postal-code" autocomplete="postal-code" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+                          <input  type="text" name="postal-code" id="postal-code" autocomplete="postal-code" class=" zip mt-1 block w-full rounded-md border border-sky-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
                         </div>
                       </div>
 
                     </div>
-                    <div>
+                    <div class="px-4">
                         <label for="about" class="block text-sm font-medium text-gray-700">About</label>
                         <div class="mt-1">
-                          <textarea id="about" name="about" rows="3" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"></textarea>
+                          <textarea id="about" name="about" rows="3" class="mt-1 block w-full rounded-md border border-sky-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"></textarea>
                         </div>
-                      </div>
+                    </div>
                       <div>
                         <!-- <label class="block text-sm font-medium text-gray-700">Cover photo</label>
                         <div class="mt-1 flex justify-center rounded-md border-2 border-dashed border-gray-300 px-6 pt-5 pb-6">
@@ -135,22 +135,10 @@
                               <svg class="h-5 w-5 flex-shrink-0 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                 <path fill-rule="evenodd" d="M15.621 4.379a3 3 0 00-4.242 0l-7 7a3 3 0 004.241 4.243h.001l.497-.5a.75.75 0 011.064 1.057l-.498.501-.002.002a4.5 4.5 0 01-6.364-6.364l7-7a4.5 4.5 0 016.368 6.36l-3.455 3.553A2.625 2.625 0 119.52 9.52l3.45-3.451a.75.75 0 111.061 1.06l-3.45 3.451a1.125 1.125 0 001.587 1.595l3.454-3.553a3 3 0 000-4.242z" clip-rule="evenodd" />
                               </svg>
-                              <span class="ml-2 w-0 flex-1 truncate1">resume.pdf</span>
+                              <span class="ml-2 w-0 flex-1 truncate">resume.pdf</span>
                             </div>
                             <div class="ml-4 flex-shrink-0">
-                              <a href="#" class="font-medium text-indigo-600 hover:text-indigo-500">Download</a>
-                            </div>
-                          </li>
-                          <li class="flex items-center justify-between py-3 pl-3 pr-4 text-sm">
-                            <div class="flex w-0 flex-1 items-center">
-                              <!-- Heroicon name: mini/paper-clip -->
-                              <svg class="h-5 w-5 flex-shrink-0 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M15.621 4.379a3 3 0 00-4.242 0l-7 7a3 3 0 004.241 4.243h.001l.497-.5a.75.75 0 011.064 1.057l-.498.501-.002.002a4.5 4.5 0 01-6.364-6.364l7-7a4.5 4.5 0 016.368 6.36l-3.455 3.553A2.625 2.625 0 119.52 9.52l3.45-3.451a.75.75 0 111.061 1.06l-3.45 3.451a1.125 1.125 0 001.587 1.595l3.454-3.553a3 3 0 000-4.242z" clip-rule="evenodd" />
-                              </svg>
-                              <span class="ml-2 w-0 flex-1 truncate">coverletter.pdf</span>
-                            </div>
-                            <div class="ml-4 flex-shrink-0">
-                              <a href="#" class="font-medium text-indigo-600 hover:text-indigo-500">Download</a>
+                              <a href="#" class="font-medium text-indigo-600 hover:text-indigo-500 btn1 " onclick="downlod()">Download</a>
                             </div>
                           </li>
                         </ul>
