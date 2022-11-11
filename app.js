@@ -204,33 +204,33 @@
 
 //~~ 10 ~~~
 
-var son = prompt();
+// var son = prompt();
 
-if (son == 1) {
-    console.log('Dushanba');
-} else if ( son == 2 ) {
-    console.log('Seshanba');
-}
-else if( son == 3){
-    console.log('Chorshanba');
-} 
-else if( son == 4){
-    console.log('Payshanba');
-} 
-else if( son == 5){
-    console.log('Juma');
-} 
-else if( son == 6){
-    console.log('Shanba');
-} 
-else if( son == 7){
-    console.log('Yakshanba');
-}
-else  if (son > 7) {
-    console.log('Siz juda katta son kiritingiz ');
-}else {
-    console.log('Siz kichik son kiritingiz');
-}
+// if (son == 1) {
+//     console.log('Dushanba');
+// } else if ( son == 2 ) {
+//     console.log('Seshanba');
+// }
+// else if( son == 3){
+//     console.log('Chorshanba');
+// } 
+// else if( son == 4){
+//     console.log('Payshanba');
+// } 
+// else if( son == 5){
+//     console.log('Juma');
+// } 
+// else if( son == 6){
+//     console.log('Shanba');
+// } 
+// else if( son == 7){
+//     console.log('Yakshanba');
+// }
+// else  if (son > 7) {
+//     console.log('Siz juda katta son kiritingiz ');
+// }else {
+//     console.log('Siz kichik son kiritingiz');
+// }
 
 
 
