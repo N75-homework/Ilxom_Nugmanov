@@ -10,6 +10,7 @@
 
 
 
+
 // ~~~ 2 kg ga 0girish~~~
 
 // var kg = prompt();
