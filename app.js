@@ -1,9 +1,9 @@
         // ~~~~1~~~
 // 100 gacha bolgan sonlar 
 
-for(let i = 0; i <= 100; i++){
-   console.log(i);
-}
+// for(let i = 0; i <= 100; i++){
+//    console.log(i);
+// }
 
        // ~~~2~~~
 // 100 gach toq sonlar
@@ -49,16 +49,18 @@ for(let i = 0; i <= 100; i++){
 
 // let result = nums.reduce((jami, hozirgiEl) => jami += hozirgiEl, 0);
 
-// console.log(result) 
+// console.log(result)  
 
 
        // ~~~6~~~
 
        
-// merilgan matini ichidan eng uzun sozi topish => hali tugamagan
+// berilgan matini ichidan eng uzun sozi topish => hali tugamagan
 
-// let str = 'salom dunyo'
+let str = 'salom dunyo yrt t43re 534t23r4t4'
+let strarr = str.split(' ')
+let full = strarr.sort()[0];
 
-// let strarr = str.split(' ')
 
-// console.log(strarr);
+console.log(full);
+
